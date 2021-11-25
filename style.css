@@ -1,0 +1,42 @@
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-image: url(https://www.trans-eau.ca/wp-content/uploads/eau-a.jpg);
+    background-size: cover;
+}
+
+p{
+    margin: 20px;
+}
+
+.resultat{
+    text-align: center;
+}
+
+#temperatures{
+    padding: 50px;
+    margin: 300px auto;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 4px 4px 10px 2px rgb(61, 37, 150);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    margin: auto;
+    width: 200px;
+    height: 20px;
+}
+
+.rouge{
+    background-color: rgba(238, 44, 44, 0.9);
+}
+
+.bleu{
+    background-color: rgba(70, 70, 206, 0.9);
+}
